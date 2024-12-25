@@ -1,0 +1,76 @@
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelSlider {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 27px;
+    margin: 5px;
+}
+
+.inputSlider {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.4s;
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* Day/Night Theme */
+.theme {
+    background-color: transparent;
+}
+
+.theme .slider {
+    background-size: cover;
+    background-position: center;
+}
+
+.theme input:checked + .slider {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Celsius/Fahrenheit Toggle */
+.degree {
+    background-color: lightgray;
+    border-radius: 34px;
+}
+
+.degree input:checked + .slider {
+    background-color: skyblue;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 24px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #FAF9F6;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.inputSlider:checked + .slider:before {
+    transform: translateX(36px);
+}

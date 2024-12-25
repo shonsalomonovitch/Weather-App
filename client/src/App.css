@@ -1,0 +1,39 @@
+.App {
+  background-image: var(--light-background);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.App.dark {
+  background-image: var(--dark-background);
+}
+
+/* Phone screens (<= 980px) */
+@media (max-width: 980px) {
+  .App {
+    overflow: auto;
+  }
+
+}
+
+/* Mid screens (980px to 1200px) */
+@media (min-width: 981px) {
+  .mainRow {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: 885px;
+    grid-template-areas: "cities info";
+    grid-area: content;
+    position: relative;
+    overflow-y: auto;
+  }
+}
+
+/* Large screens (>= 982) */
+@media (min-width: 982px) {
+  .App {
+    height: 100vh;
+  }
+}

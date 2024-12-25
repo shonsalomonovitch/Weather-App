@@ -1,0 +1,9 @@
+.tempForecastItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.tempForecastItem>p {
+    margin: 5px;
+
+}

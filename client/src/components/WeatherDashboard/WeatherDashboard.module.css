@@ -1,0 +1,77 @@
+.infoColumn {
+    width: 650px;
+    height: 550px;
+    grid-area: info;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-self: center;
+}
+
+.infoRow {
+    justify-items: center;
+    grid-column: 1/-1;
+}
+
+.gridItem {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background 0.2s;
+    height: 80px;
+    align-items: center;
+}
+
+.gridItem:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-5px);
+}
+
+.tempForecast {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 100%;
+}
+
+.condition h3,
+h4 {
+    margin: 0;
+}
+
+.condition {
+    padding: 10px 24px 32px 24px;
+}
+
+.map {
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 980px) {
+    .infoColumn{
+        width: 350px;
+        height: 1150px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 981px) {}
+
+@media (min-width: 1200px) {
+
+}

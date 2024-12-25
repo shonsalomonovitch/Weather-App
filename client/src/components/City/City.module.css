@@ -1,0 +1,61 @@
+.city {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.city:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.locationData {
+    display: flex;
+    flex-direction: column;
+    column-gap: 3px;
+}
+
+.locationData>p {
+    margin: 0;
+}
+
+.weatherData {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+.weatherData>h1 {
+    margin: 0;
+
+}
+
+.weatherData>p {
+    margin: 0;
+}
+
+.deleteDiv {
+    width: 55px;
+    height: 35px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    background-color:rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    justify-items: center;
+    border-radius: 10px;
+    margin-top: 0 auto;
+}
+
+.deleteDiv > p{
+    padding-top: 5px;
+}
+
