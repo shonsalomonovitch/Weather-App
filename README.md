@@ -18,30 +18,21 @@ This is a **Weather App** built using **Node.js**, **React**, and **TypeScript**
 
 ## 📸 Screenshots
 ### Home Screen Day 🌤️
-<div style="display: flex; gap: 10px;">
-  <img src="https://github.com/NoamRadiano/Weather-App/blob/main/weatherProjectScreenshots/Screenshot%202024-12-14%20at%2011.05.45.jpeg" alt="Screenshot 2" width="92%" />
-  </div>
-<div style="display: flex; gap: 10px;">
-  <img src="weatherProjectScreenshots/Screenshot 2024-12-14 at 14.28.05.jpeg" alt="Screenshot 1" width="92%" />
-</div>
+![Home Screen Day](https://github.com/user-attachments/assets/69ed8edc-3993-4eba-98c8-b0d8c78bcb45)
+![2](https://github.com/user-attachments/assets/344f9821-47fe-4efe-8587-9f9f2e6bdb7e)
+
 
 ### Search & AutoComplete 🔍
-<div style="display: flex; gap: 10px;">
-  <img src="weatherProjectScreenshots/Screenshot 2024-12-14 at 11.05.32.jpeg" alt="Screenshot 2" width="92%" />
-  </div>
+![Search   AutoComplete ](https://github.com/user-attachments/assets/0b7e5688-5fad-4f8d-9728-2f18fc05a956)
+
   
 ### Home Screen Night 🌙
-<div style="display: flex; gap: 10px;">
-  <img src="weatherProjectScreenshots/Screenshot 2024-12-14 at 11.06.13.jpeg" alt="Screenshot 2" width="92%" />
-  </div>
+![Home Screen Night](https://github.com/user-attachments/assets/2e3245a7-d6c7-4357-a367-aaff135fccb4)
+
   
 ### Phone Screen 📱
-<div style="display: flex; gap: 10px;">
-  <img src="weatherProjectScreenshots/Screenshot 2024-12-14 at 11.06.36.jpeg" alt="Screenshot 2" width="92%" />
-  </div>
-  <div style="display: flex; gap: 10px;">
-  <img src="weatherProjectScreenshots/Screenshot 2024-12-14 at 11.06.42.jpeg" alt="Screenshot 2" width="92%" />
-  </div>
+![phone 3](https://github.com/user-attachments/assets/08cde235-9669-4604-a851-109eb318a2e7)
+![phone 2](https://github.com/user-attachments/assets/30763e3c-08a9-49d5-845e-1eb1ed6ae0b6)
 
 
 ## 🚀 Installation
