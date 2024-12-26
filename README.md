@@ -18,21 +18,22 @@ This is a **Weather App** built using **Node.js**, **React**, and **TypeScript**
 
 ## 📸 Screenshots
 ### Home Screen Day 🌤️
-![Home Screen Day](https://github.com/user-attachments/assets/69ed8edc-3993-4eba-98c8-b0d8c78bcb45)
-![2](https://github.com/user-attachments/assets/344f9821-47fe-4efe-8587-9f9f2e6bdb7e)
+<img width="90%" alt="home screen light mode with sidebar" src="https://github.com/user-attachments/assets/4d1c3ae8-2ed2-4a7b-92b7-fc7f2733bcdb"/>
+/>
+<img width="90%" alt="home screen light mode without sidebar" src="https://github.com/user-attachments/assets/344f9821-47fe-4efe-8587-9f9f2e6bdb7e"/>
 
 
 ### Search & AutoComplete 🔍
-![Search   AutoComplete ](https://github.com/user-attachments/assets/0b7e5688-5fad-4f8d-9728-2f18fc05a956)
+<img width="90%" alt="search and autocomplete" src="https://github.com/user-attachments/assets/0b7e5688-5fad-4f8d-9728-2f18fc05a956"/>
 
   
 ### Home Screen Night 🌙
-![Home Screen Night](https://github.com/user-attachments/assets/2e3245a7-d6c7-4357-a367-aaff135fccb4)
+<img width="90%" alt="home screen darkmode" src="https://github.com/user-attachments/assets/2e3245a7-d6c7-4357-a367-aaff135fccb4"/>
 
   
 ### Phone Screen 📱
-![phone 3](https://github.com/user-attachments/assets/08cde235-9669-4604-a851-109eb318a2e7)
-![phone 2](https://github.com/user-attachments/assets/30763e3c-08a9-49d5-845e-1eb1ed6ae0b6)
+<img width="90%" alt="phone screen" src="https://github.com/user-attachments/assets/08cde235-9669-4604-a851-109eb318a2e7"/>
+<img width="90%" alt="phone screen" src="https://github.com/user-attachments/assets/30763e3c-08a9-49d5-845e-1eb1ed6ae0b6"/>
 
 
 ## 🚀 Installation
